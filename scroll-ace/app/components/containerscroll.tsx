@@ -10,7 +10,7 @@ export function HeroScrollDemo() {
         titleComponent={
           <>
             <h1 className="text-4xl font-semibold text-black dark:text-black">
-              Awesome Web Art <br />
+              Awesome Web Art & Designs <br />
               <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
                 DoodleVelp
               </span>
@@ -24,64 +24,40 @@ export function HeroScrollDemo() {
 
 export const users = [
   {
-    name: "Logo Art",
-    designation: "Founder, Algochurn",
-    image: "https://picsum.photos/id/10/300/300",
-    badge: "Mentor",
+    name: "Landing Page Illustration",
+    designation: "Sample Landing Page illustration",
+    image: "https://i.ibb.co/Ctn361D/1.png",
+    badge: "View",
   },
   {
-    name: "Sarah Singh",
-    designation: "Founder, Sarah's Kitchen",
-    image: "https://picsum.photos/id/11/300/300",
-    badge: "Mentor",
+    name: "Art Splash Creative",
+    designation: "Divsplash Creative Platform",
+    image: "https://i.ibb.co/m6X22Nv/Divsplash.png",
+    badge: "View",
   },
   {
-    name: "John Doe",
+    name: "Notion Mockup",
     designation: "Software Engineer, Tech Corp",
-    image: "https://picsum.photos/id/12/300/300",
-    badge: "Mentor",
+    image: "https://i.ibb.co/PWwVJHc/3.jpg",
+    badge: "View",
   },
   {
-    name: "Jane Smith",
+    name: "Social Media Product Design",
     designation: "Product Manager, Innovate Inc",
-    image: "https://picsum.photos/id/13/300/300",
-    badge: "Mentor",
+    image: "https://i.ibb.co/Gt7qSKZ/VELPSPLSAH.png",
+    badge: "View",
   },
   {
-    name: "Robert Johnson",
-    designation: "Data Scientist, DataWorks",
-    image: "https://picsum.photos/id/14/300/300",
-    badge: "Mentor",
+    name: "Doodle Marketting Page",
+    designation: "Marketting page with ilustrations",
+    image: "https://i.ibb.co/BfCYSYN/frame2.png",
+    badge: "View",
   },
   {
-    name: "Emily Davis",
-    designation: "UX Designer, DesignHub",
-    image: "https://picsum.photos/id/15/300/300",
-    badge: "Mentor",
+    name: "Illustration Portfolio",
+    designation: "Portfolio illustrations displayed",
+    image: "https://i.ibb.co/8YmH6T1/winplante.png",
+    badge: "View",
   },
-  {
-    name: "Michael Miller",
-    designation: "CTO, FutureTech",
-    image: "https://picsum.photos/id/16/300/300",
-    badge: "Mentor",
-  },
-  {
-    name: "Sarah Brown",
-    designation: "CEO, StartUp",
-    image: "https://picsum.photos/id/17/300/300",
-  },
-  {
-    name: "James Wilson",
-    designation: "DevOps Engineer, CloudNet",
-    image: "https://picsum.photos/id/18/300/300",
-    badge: "Something",
-  },
-  {
-    name: "Patricia Moore",
-    designation: "Marketing Manager, MarketGrowth",
-    image: "https://picsum.photos/id/19/300/300",
-    badge: "Mentor",
-  },
-
 
 ];
