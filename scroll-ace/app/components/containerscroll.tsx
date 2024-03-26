@@ -9,10 +9,12 @@ export function HeroScrollDemo() {
         users={users}
         titleComponent={
           <>
-            <h1 className="text-4xl font-semibold text-black dark:text-black">
-              Make your websites alive with <br />
+            <h1 className="text-4xl font-semibold text-[#222222]">
+              Bring your boring websites to life with <br />
+            </h1>
+            <h1>
               <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
-                DoodleVelp
+                Paper<span className="t text-red-300">Web</span> 
               </span>
             </h1>
           </>

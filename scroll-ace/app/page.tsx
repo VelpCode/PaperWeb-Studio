@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { HeroScrollDemo } from "./components/containerscroll";
 import { HeroParallaxDemo } from "./components/parallax";
+import PaperWeb from "../public/ccclaymoji.svg"
 
 export default function Home() {
   return (
@@ -10,7 +11,6 @@ export default function Home() {
         <HeroScrollDemo />
         <HeroParallaxDemo />
         <div className="subsection items-center flex justify-center">
-          <h1 className="text-5xl font-semibold text-black dark:text-black"> Check out some work </h1>
 
         </div>
     </div>
