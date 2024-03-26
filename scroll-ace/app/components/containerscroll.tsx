@@ -10,7 +10,7 @@ export function HeroScrollDemo() {
         titleComponent={
           <>
             <h1 className="text-4xl font-semibold text-black dark:text-black">
-              Awesome Web Art & Designs <br />
+              Make your websites alive with <br />
               <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
                 DoodleVelp
               </span>
