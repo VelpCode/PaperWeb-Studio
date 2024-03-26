@@ -3,9 +3,11 @@
 const nextConfig = {
     images: {
       domains: ['aceternity.com'], // Specify the domain here
+      domains: ['i.ibb.co'],
     },
     // ...other configurations if needed
   };
   
-  export default nextConfig;
+
+export default nextConfig;
   

@@ -1,6 +1,8 @@
 "use client";
+import Image from "next/image";
 import React from "react";
 import { ContainerScroll } from "../components/ui/container-scroll-animation";
+import Claydo from "../../public/ccclaymoji.png"
 
 export function HeroScrollDemo() {
   return (
@@ -14,7 +16,8 @@ export function HeroScrollDemo() {
             </h1>
             <h1>
               <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
-                Paper<span className="t text-red-300">Web</span> 
+                Paper<span className="t text-red-300">Web</span><Image src={Claydo} alt="Claymoji PNG Image" width={100} height={100} />
+
               </span>
             </h1>
           </>

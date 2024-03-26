@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { HeroScrollDemo } from "./components/containerscroll";
 import { HeroParallaxDemo } from "./components/parallax";
-import PaperWeb from "../public/ccclaymoji.svg"
+import Clayimage from '../public/ccclaymoji.png'
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
         <HeroScrollDemo />
         <HeroParallaxDemo />
         <div className="subsection items-center flex justify-center">
-
+        <Image src={Clayimage} alt="Claymoji PNG Image" width={100} height={100} />
         </div>
     </div>
   );
