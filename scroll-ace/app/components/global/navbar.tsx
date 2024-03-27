@@ -37,7 +37,7 @@ const navbar = () => {
       </nav>
       <aside className='flex items-center gap-4'>
       <button className="shadow-[0_4px_14px_0_rgba(205,120,180,0.39)] hover:shadow-[0_6px_20px_rgba(255,105,180,0.23)] hover:bg-black-200 px-8 py-2 bg-black rounded-md text-white font-light transition duration-200 ease-linear">
-  Dashboard
+  Book a call
 </button>
       </aside>
     </header>
