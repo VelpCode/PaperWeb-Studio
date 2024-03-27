@@ -5,6 +5,7 @@ import Clayimage from '../public/ccclaymoji.png'
 import Navbar from "./components/global/navbar";
 import Paper from '../public/paper.png'
 import Background from '../public/background.png'
+import { ThreeDCardDemo } from "./components/3dcard";
 
 export default function Home() {
   return (
@@ -16,6 +17,9 @@ export default function Home() {
         <HeroScrollDemo />
         <HeroParallaxDemo />
         <div className="subsection items-center flex justify-center">
+          
+          <h1 className="title text-5xl"></h1>
+          <ThreeDCardDemo />
         </div>
     </div>
   );
