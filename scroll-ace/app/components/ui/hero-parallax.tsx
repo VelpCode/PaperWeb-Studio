@@ -48,17 +48,17 @@ export const HeroParallax = ({
     springConfig
   );
   const rotateZ = useSpring(
-    useTransform(scrollYProgress, [0, 0.2], [20, 0]),
+    useTransform(scrollYProgress, [0, 0.2], [10, 0]),
     springConfig
   );
   const translateY = useSpring(
-    useTransform(scrollYProgress, [0, 0.2], [-700, 500]),
+    useTransform(scrollYProgress, [0, 0.2], [-700, 5]),
     springConfig
   );
   return (
     <div
       ref={ref}
-      className="h-[300vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
+      className="h-[230vh] py-40 overflow-hidden  antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d]"
     >
       <Header />
       <motion.div
@@ -70,7 +70,7 @@ export const HeroParallax = ({
         }}
         className=""
       >
-        <motion.div className="flex flex-row-reverse space-x-reverse space-x-20 mb-20">
+        <motion.div className="flex flex-row-reverse space-x-reverse space-x-20">
           {firstRow.map((product) => (
             <ProductCard
               product={product}
@@ -105,11 +105,11 @@ export const HeroParallax = ({
 export const Header = () => {
   return (
     <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
-      <h1 className="text-2xl md:text-7xl font-bold">
-        Changing how your <br /> Websites feel
+      <h1 className="text-2xl md:text-5xl font-bold">
+        Make your websites and apps <br /> more engaging..
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 text-slate-500 mb-5">
-        Building beautiful websites that include aesthetic designs, illustrations and quirks that will make your website stick out, and gain attention.
+        Building beautiful websites that include aesthetic designs, illustrations and quirks that will make your brand stick out, and gain attention.
       </p>
       <button className="px-6 py-2 bg-black text-white rounded-lg font-semibold transform hover:-translate-y-1 transition duration-400 shadow-lg">
   View Templates
