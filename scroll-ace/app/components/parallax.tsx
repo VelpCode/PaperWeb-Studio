@@ -16,12 +16,6 @@ export const products = [
     title: "Moonbeam",
     link: "https://gomoonbeam.com",
     image:
-      "https://i.ibb.co/m6X22Nv/Divsplash.png",
-  },
-  {
-    title: "Moonbeam",
-    link: "https://gomoonbeam.com",
-    image:
       "https://i.ibb.co/PWwVJHc/3.jpg",
   },
   {

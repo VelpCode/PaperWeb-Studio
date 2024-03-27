@@ -108,9 +108,12 @@ export const Header = () => {
       <h1 className="text-2xl md:text-7xl font-bold">
         Changing how your <br /> Websites feel
       </h1>
-      <p className="max-w-2xl text-base md:text-xl mt-8">
-        We build beautiful websites that include aesthetic designs, illustrations and quirks that will make your website stick out, and gain attention.
+      <p className="max-w-2xl text-base md:text-xl mt-8 text-slate-500 mb-5">
+        Building beautiful websites that include aesthetic designs, illustrations and quirks that will make your website stick out, and gain attention.
       </p>
+      <button className="px-6 py-2 bg-black text-white rounded-lg font-semibold transform hover:-translate-y-1 transition duration-400 shadow-lg">
+  View Templates
+</button>
     </div>
   );
 };
@@ -145,11 +148,11 @@ export const ProductCard = ({
           src={product.image}
           height="600"
           width="600"
-          className="object-cover object-left-top absolute h-full w-full inset-0"
+          className="object-cover object-left-top absolute h-full w-full inset-0 rounded-lg shadow-xl"
           alt={product.title}
         />
       </Link>
-      <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none"></div>
+      <div className="absolute inset-0 h-full w-full opacity-0 group-hover/product:opacity-80 bg-black pointer-events-none rounded-lg shadow-lg"></div>
       <h2 className="absolute bottom-4 left-4 opacity-0 group-hover/product:opacity-100 text-white">
         {product.title}
       </h2>
