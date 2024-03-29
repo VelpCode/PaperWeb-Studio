@@ -1,9 +1,10 @@
 import React from 'react'
+import Image from 'next/image'
 
 const subdesc = () => {
   return (
-    <div>
-        <div className="container mb-[200px] flex justify-around">
+    <div className = "flex justify-center items-center mt-10">
+        <div className="container mb-[200px] flex justify-center">
             <div className="boxes grid grid-cols-3 items-center align-middle gap-[100px]">
                 <div className="box max-w-[300px] flex flex-col items-center align-middle ">
                         <h1 className='text-3xl font-semibold text-neutral-900 items-center mb-3'>Branding</h1>
