@@ -6,6 +6,7 @@ import Navbar from "./components/global/navbar";
 import Paper from '../public/paper.png'
 import Background from '../public/background.png'
 import { ThreeDCardDemo } from "./components/3dcard";
+import Subdesc from "./components/global/subdesc";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Navbar />
         <HeroScrollDemo />
         <HeroParallaxDemo />
+        <Subdesc />
         <div>
          <div className="offer items-center flex flex-col justify-center">
           <div className="h1 text-5xl font-bold">What we offer</div>
