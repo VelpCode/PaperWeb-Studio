@@ -1,1 +1,1 @@
-export { default as Claymoji } from "./ccclaymoji.svg";
+export { default as Undraw } from "./undraw_smiley-face.svg";

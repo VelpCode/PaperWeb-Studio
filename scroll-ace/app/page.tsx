@@ -8,7 +8,6 @@ import Paper from '../public/paper.png'
 import Background from '../public/background.png'
 import { ThreeDCardDemo } from "./components/3dcard";
 import Subdesc from "./components/global/subdesc";
-import Undraw from "./publ"
 
 export default function Home() {
   return (
