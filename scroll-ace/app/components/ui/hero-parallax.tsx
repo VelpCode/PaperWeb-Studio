@@ -109,7 +109,7 @@ export const Header = () => {
         Make your websites and apps <br /> more engaging..
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 text-slate-500 mb-5">
-        Building beautiful websites that include aesthetic designs, illustrations and quirks that will make your brand stick out, and gain attention.
+        Crafting beautiful websites that stand out with aesthetic designs, illustrations and quirks that will make your brand pop, and gain clicks.
       </p>
       <button className="px-6 py-2 bg-black text-white rounded-lg font-semibold transform hover:-translate-y-1 transition duration-400 shadow-lg">
   View Templates
