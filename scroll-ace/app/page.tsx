@@ -14,12 +14,14 @@ export default function Home() {
 
     
     <div>
+
         <Image src = '/background.png' alt = 'Background Image' layout = 'fill' objectFit = 'cover' />
         <Navbar />
         <HeroScrollDemo />
         <HeroParallaxDemo />
         <Subdesc />
         <Offer />
+        
     </div>
   );
 }
