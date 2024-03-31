@@ -17,8 +17,8 @@ export function HeroScrollDemo() {
             <h1>
               <span className="text-4xl md:text-[6rem] font-bold mt-1 leading-none">
                 Paper<span className="t text-red-300">Web</span>
-
               </span>
+              
             </h1>
           </>
         }

@@ -14,7 +14,7 @@ const offer = () => {
             <Image src = '/template.png' alt = 'Custom Work'  width={200} height={10}/>
             </div>            <div className="h1 font-bold">Web Skins</div>
             <div className="body text-sm mt-4 text-neutral-500">Check out differet aesthetic website templates that you will fall in love with, both code & nocode. </div>
-            <button className="bg-[#222222] p-2 shadow-md mt-5 text-sm rounded-lg h-full w-full text-white">View</button>
+            <button className="bg-[#222222] p-2 shadow-md mt-5 text-sm rounded-lg h-full w-full text-white">Browse</button>
           </div>
           <div className="p-10 box rounded-lg shadow-sm bg-white border mb-20 items-center cursor-pointer hover:scale-105 hover:shadow-md transition-transform duration-300 ease-in-out">
             <div className="imagesec items-center flex justify-center align-middle mb-5">
@@ -22,7 +22,7 @@ const offer = () => {
             </div>
             <div className="h1 font-bold text-lg">Illustration Packs</div>
             <div className="body text-sm mt-4 text-neutral-500">Browse from a collection of various illustrations styles you can throw on your sites.</div>
-            <button className="bg-[#222222] p-2 shadow-md mt-5 text-sm rounded-lg h-full w-full text-white">View</button>
+            <button className="bg-[#222222] p-2 shadow-md mt-5 text-sm rounded-lg h-full w-full text-white">Browse</button>
           </div>
           <div className="box p-10 rounded-lg shadow-sm border bg-red-40 mb-20 cursor-pointer hover:scale-105 hover:shadow-md transition-transform duration-300 ease-in-out">
           <div className="imagesec items-center flex justify-center align-middle mb-5">
