@@ -17,7 +17,8 @@ export default function Home() {
 
         <Image src = '/background.png' alt = 'Background Image' layout = 'fill' objectFit = 'cover' />
         <Navbar />
-        <HeroScrollDemo />
+        <HeroScrollDemo>
+        </HeroScrollDemo>
         <HeroParallaxDemo />
         <Subdesc />
         <Offer />

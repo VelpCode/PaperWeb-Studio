@@ -3,6 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { ContainerScroll } from "../components/ui/container-scroll-animation";
 import Claydo from "../../public/ccclaymoji.png"
+import { Button } from "./ui/button";
 
 export function HeroScrollDemo() {
   return (
@@ -11,6 +12,20 @@ export function HeroScrollDemo() {
         users={users}
         titleComponent={
           <>
+            <div className="button flex items-center justify-center flex-col mb-5">
+            <div className="relative mt-10">
+    <div className="absolute -inset-5">
+        <div
+            className="w-full h-full max-w-sm mx-auto lg:mx-0 opacity-30 blur-lg bg-gradient-to-r from-yellow-400 via-pink-500 to-green-600">
+        </div>
+    </div>
+    <a href="#" title=""
+        className="relative z-10 mb-5 inline-flex items-center justify-center w-full px-8 py-3 text-lg font-bold text-white transition-all duration-200 bg-gray-900 border-2 border-transparent sm:w-auto rounded-xl font-pj hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+        role="button">
+        Check out our work
+    </a>
+</div>
+            </div>
             <h1 className="text-4xl font-semibold text-[#222222]">
               Bring your boring websites to life with <br />
             </h1>
