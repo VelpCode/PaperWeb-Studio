@@ -15,7 +15,7 @@ export default function Home() {
     
     <div>
 
-        <Image src = '/backgroundtwo.png' alt = 'Background Image' layout = 'fill' objectFit = 'cover' />
+        <Image src = '/backgroundfour.png' alt = 'Background Image' layout = 'fill' objectFit = 'cover' />
         <Navbar />
         <HeroScrollDemo>
         </HeroScrollDemo>

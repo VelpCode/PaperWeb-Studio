@@ -20,7 +20,7 @@ export function HeroScrollDemo() {
         </div>
     </div>
     <a href="#" title=""
-        className="relative z-10 mb-5 inline-flex items-center justify-center w-full px-8 py-3 text-lg font-semibold text-white transition-all duration-200 bg-gray-900 border-2 border-transparent sm:w-auto rounded-xl font-pj hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+        className="relative z-10 mb-5 inline-flex items-center justify-center w-full px-8 py-3 text-lg font-semibold text-white transition-all duration-200 bg-gray-600 border-2 border-transparent sm:w-auto rounded-xl font-pj hover:bg-gray-900 transition-transform duration-300 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
         role="button">
         Check out our work
     </a>
