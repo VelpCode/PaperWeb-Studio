@@ -1,5 +1,5 @@
 import Navbar from "../components/global/navbar"
-
+import Image from "next/image"
 
 export default function Component() {
   return (
