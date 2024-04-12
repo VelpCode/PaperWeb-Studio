@@ -1,11 +1,13 @@
 import Navbar from "../components/global/navbar"
 import Image from "next/image"
+import Footer from "../components/global/footer"
+
 
 export default function Component() {
   return (
-
+    <div>
+    <Navbar></Navbar>
     <section className="w-full py-12 md:py-24 lg:py-32">
-            <Navbar></Navbar>
       <div className="container px-4 grid items-center justify-center gap-4 text-center md:px-6 lg:gap-10">
         <div className="space-y-3">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Templates</h2>
@@ -73,5 +75,7 @@ export default function Component() {
         </div>
       </div>
     </section>
+    <Footer />
+    </div>
   )
 }

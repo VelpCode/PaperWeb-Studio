@@ -8,6 +8,7 @@ import Paper from '../public/paper.png'
 import Background from '../public/background.png'
 import { ThreeDCardDemo } from "./components/3dcard";
 import Subdesc from "./components/global/subdesc";
+import Footer from "./components/global/footer"
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <HeroParallaxDemo />
         <Subdesc />
         <Offer />
+        <Footer/>
         
     </div>
   );
