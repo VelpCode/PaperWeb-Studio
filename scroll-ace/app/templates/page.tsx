@@ -19,26 +19,26 @@ export default function Component() {
           <div className="flex flex-col gap-2">
             <img
               alt="Thumbnail"
-              className="aspect-[3/2] overflow-hidden rounded-lg object-cover object-center"
+              className="rotate-1 aspect-[3/2] overflow-hidden rounded-lg object-cover object-center shadow-lg mb-5"
               height="400"
-              src="/placeholder.svg"
+              src="https://i.ibb.co/PWwVJHc/3.jpg"
               width="600"
             />
-            <h3 className="text-xl font-bold tracking-tighter">Blog Template</h3>
+            <h3 className="text-xl font-bold tracking-tighter">Brand Template</h3>
             <p className="text-sm text-gray-500 leading-loose md:text-base dark:text-gray-400">
-              The blog template provides a starting point for creating a new blog. It includes a feed of posts, a post
+              The brand template provides a starting point for creating a new brand. It includes a feed of posts, a post
               page, and an about page.
             </p>
           </div>
           <div className="flex flex-col gap-2">
             <img
               alt="Thumbnail"
-              className="aspect-[3/2] overflow-hidden rounded-lg object-cover object-center"
+              className="mb-5 shadow-lg aspect-[3/2] overflow-hidden rounded-lg object-cover object-center"
               height="400"
-              src="/placeholder.svg"
+              src="https://i.ibb.co/8YmH6T1/winplante.png"
               width="600"
             />
-            <h3 className="text-xl font-bold tracking-tighter">Dashboard Template</h3>
+            <h3 className="text-xl font-bold tracking-tighter">Portfolio Illustration</h3>
             <p className="text-sm text-gray-500 leading-loose md:text-base dark:text-gray-400">
               The dashboard template provides a starting point for creating a new dashboard. It includes several widgets
               for monitoring data.
@@ -47,9 +47,9 @@ export default function Component() {
           <div className="flex flex-col gap-2">
             <img
               alt="Thumbnail"
-              className="aspect-[3/2] overflow-hidden rounded-lg object-cover object-center"
+              className=" mb-5 shadow-lg aspect-[3/2] overflow-hidden rounded-lg object-cover object-center"
               height="400"
-              src="/placeholder.svg"
+              src="https://i.ibb.co/Gt7qSKZ/VELPSPLSAH.png"
               width="600"
             />
             <h3 className="text-xl font-bold tracking-tighter">E-commerce Template</h3>
@@ -61,14 +61,14 @@ export default function Component() {
           <div className="flex flex-col gap-2">
             <img
               alt="Thumbnail"
-              className="aspect-[3/2] overflow-hidden rounded-lg object-cover object-center"
+              className="shadow-lg mb-5 aspect-[3/2] overflow-hidden rounded-lg object-cover object-center"
               height="400"
-              src="/placeholder.svg"
+              src="https://i.ibb.co/Ctn361D/1.png"
               width="600"
             />
-            <h3 className="text-xl font-bold tracking-tighter">Documentation Template</h3>
+            <h3 className="text-xl font-bold tracking-tighter">Sketch Template</h3>
             <p className="text-sm text-gray-500 leading-loose md:text-base dark:text-gray-400">
-              The documentation template provides a starting point for creating documentation. It includes a multi-level
+              The sketch template provides a multi-level
               sidebar for organizing content and a responsive layout.
             </p>
           </div>
